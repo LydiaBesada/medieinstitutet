@@ -1,0 +1,69 @@
+html {
+    background: rgb(203, 222, 222);
+    font-family: 'Mooli', sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    background: rgb(114, 170, 182);
+    color: white;
+    border-radius: 110px;
+}
+
+img {
+    border-radius: 200px;
+    width: 300px;
+}
+
+p {
+    background: rgb(114, 170, 182);
+    border-radius: 200px;
+}
+
+form {
+    border: 1px solid white;
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.form-label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 200px;
+    height: 30px;
+    font-size: 13px;
+    padding: 1px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background: white;
+    border: none;
+}
+
+table {
+    position: relative;
+    left: 25%;
+}
+
+table th {
+    border-bottom: 1px dotted black;
+}
+
+table tr:nth-child(even) {
+    border: 1px solid black;
+    background: lightgray;
+}
+
+table tr:nth-child(odd) {
+    background: white;
+}
