@@ -83,10 +83,10 @@ table tr:nth-child(odd) {
 }
 
 .portrait {
-    margin-top: 80px;
-    margin-left: 175px;
-
-    height: 300px;
+    margin-top: 30px;
+    margin-left: 160px;
+    height: 400px;
+    
 }
 
 .img-container {
