@@ -5,19 +5,31 @@ html {
 }
 
 h1 {
-    background: rgb(114, 170, 182);
+    padding-left: 10px;
+    background: rgb(21, 150, 73);
     color: white;
     border-radius: 110px;
 }
 
+h2 {
+    text-align: center;
+}
 img {
-    border-radius: 200px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    border-radius: 0px;
     width: 300px;
 }
 
 p {
-    background: rgb(114, 170, 182);
-    border-radius: 200px;
+    text-align: center;
+    background: rgb(21, 150, 73);
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    margin-bottom: 40px;
 }
 
 form {
@@ -52,7 +64,9 @@ input[type="submit"] {
 
 table {
     position: relative;
-    left: 25%;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
 }
 
 table th {
@@ -66,4 +80,30 @@ table tr:nth-child(even) {
 
 table tr:nth-child(odd) {
     background: white;
+}
+
+.portrait {
+    margin-top: 80px;
+    margin-left: 175px;
+
+    height: 300px;
+}
+
+.img-container {
+    height: 150px;
+}
+
+a {
+    margin: 10px    ;
+}
+
+#intro {
+    color: black;
+    background: none;
+    text-align: center;
+}
+
+#presentation {
+    margin-top: 20px;
+    margin-left: 0px;
 }
