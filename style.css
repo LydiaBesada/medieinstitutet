@@ -5,7 +5,8 @@ html {
 }
 
 h1 {
-    padding-left: 10px;
+    text-align: center;
+    
     background: rgb(21, 150, 73);
     color: white;
     border-radius: 110px;
@@ -94,7 +95,16 @@ table tr:nth-child(odd) {
 }
 
 a {
-    margin: 10px    ;
+    margin-right: 45px;
+    margin-left: 45px;
+    
+   
+}
+
+a:hover {
+    margin-right: 45px;
+    margin-left: 45px;
+    color: red;
 }
 
 #intro {
@@ -107,3 +117,22 @@ a {
     margin-top: 20px;
     margin-left: 0px;
 }
+
+.products {
+height: 230px;
+width: 200px;
+margin-left: 25px;
+margin-top: 40px;
+box-shadow: 5px 5px 5px black;
+}
+
+#img-container-products {
+    display: flex;
+    
+}
+
+#menu {
+    text-align: center;
+    margin-bottom: 40px;
+}
+    
