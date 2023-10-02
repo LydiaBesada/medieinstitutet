@@ -2,11 +2,11 @@ html {
     background: rgb(198, 245, 198);
     font-family: 'Neuton', serif;
     margin: 10px;
+    font-size: larger;
 }
 
 h1 {
     text-align: center;
-    
     background: rgb(21, 150, 73);
     color: white;
     border-radius: 110px;
@@ -15,9 +15,9 @@ h1 {
 h2 {
     text-align: center;
 }
+
 img {
     margin-bottom: 50px;
-    margin-left: 450px;
     border-radius: 0px;
     width: 300px;
 }
@@ -65,7 +65,7 @@ input[type="submit"] {
 
 table {
     position: relative;
-    margin: 15px;
+    margin: 28px;
     height: 200px;
     width: 200px;
 }
@@ -84,21 +84,19 @@ table tr:nth-child(odd) {
 }
 
 .portrait {
+    margin: 60px;
     margin-top: 30px;
-    margin-left: 160px;
     height: 400px;
-    
 }
 
 .img-container {
+    text-align: center;
     height: 150px;
 }
 
 a {
     margin-right: 45px;
     margin-left: 45px;
-    
-   
 }
 
 a:hover {
@@ -111,6 +109,7 @@ a:hover {
     color: black;
     background: none;
     text-align: center;
+    margin-top: 0px;
 }
 
 #presentation {
@@ -119,16 +118,16 @@ a:hover {
 }
 
 .products {
-height: 230px;
-width: 200px;
-margin-left: 25px;
-margin-top: 40px;
-box-shadow: 5px 5px 5px black;
+    height: 230px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px black;
 }
 
 #img-container-products {
-    display: flex;
-    
+    text-align: center; 
 }
 
 #menu {
@@ -136,3 +135,10 @@ box-shadow: 5px 5px 5px black;
     margin-bottom: 40px;
 }
     
+#logo {
+    text-align: center;
+}
+
+form {
+    height: 400px;
+}
