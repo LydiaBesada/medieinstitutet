@@ -142,3 +142,7 @@ a:hover {
 form {
     height: 400px;
 }
+
+#button-container {
+    text-align: center;
+}
