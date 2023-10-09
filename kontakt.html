@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>BioLife</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +19,14 @@
         <a href="prislista.html">Prislista</a>
         <a href="omoss.html">Om oss</a>
         <a href="kontakt.html">Kontakta oss</a>
+        <a href="uppgifter.html">Uppgifter</a>
     </section>
 
-    <form>
+    <form id="myform" onsubmit = "return validate();">
+        <div id="error_message">
+     
+        </div>
+
         <label for="contact-name" class="form-label">Namn:</label>
         <input id="contact-name" class="form-input" type="text" placeholder="Skriv ditt namn">
 
@@ -33,7 +39,7 @@
         <label for="contact-comment" class="form-label">Kommentar:</label>
         <input id="contact-comment" class="form-input" type="text" placeholder="Lämna en kommentar">
 
-        <input type="submit" value="Skicka" />
+        <input type="submit" value="Skicka"/>
     </form>
 
 </body>

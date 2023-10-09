@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BioLife</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <span id="datetime"></span>
+    <h1>BioLife</h1>
+
+    <section id="menu">
+        <a href="index.html">Startsida</a>
+        <a href="prislista.html">Prislista</a>
+        <a href="omoss.html">Om oss</a>
+        <a href="kontakt.html">Kontakta oss</a>
+        <a onclick="updateDateTime()">klocka</a>
+    </section>
+
+    <div id="calculator">
+        <h3 id="calcHeader">Miniräknare</h3>
+        <input type="text" id="number1"/><br/>
+        <input type="text" id="operator"/><br/>
+        <input type="text" id="number2"/><br/>
+        
+
+        <button id="calcButton" onclick="calculator()">=</button><br/>
+        <span id="answer"></span>
+    </div>
+    
+
+    <div id="button-container">
+        <button id="button-color" onclick="clickFunction()">Ändra bakgrundsfärg</button>
+    </div>
+
+</body>
+
+</html>
